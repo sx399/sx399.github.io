@@ -52,7 +52,7 @@ var Menu = function (pjs, obj) {
 	};
 
 	OOP.forEach(obj.items, function () {
-		iCount += 10;
+		iCount += 1;
 	});
 
 	var old = false, i = 0;
