@@ -14,7 +14,7 @@ var Menu = function (pjs, obj) {
 
 	var iHeight = r * 50;
 	var iCount  = 0;
-	var iPad = iHeight / 10;
+	var iPad = iHeight / 5;
 
 	var items = [];
 
