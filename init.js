@@ -1,5 +1,5 @@
 var pjs = new PointJS('2D', 400, 400, {
-	backgroundColor : 'red'
+	backgroundColor : '#C9D6FF'
 });
 pjs.system.initFullPage();
 
