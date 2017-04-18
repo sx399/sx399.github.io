@@ -12,7 +12,7 @@ var Menu = function (pjs, obj) {
 	var author = obj.author || false;
 	var radius = obj.radius * r / 2 || 0;
 
-	var iHeight = r * 50;
+	var iHeight = r * 500;
 	var iCount  = 0;
 	var iPad = iHeight / 10;
 
