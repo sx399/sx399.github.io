@@ -95,10 +95,10 @@ game.newLoopFromConstructor('game', function () {
 
 	var player = game.newCircleObject({
 		radius : 20,
-		fillColor : '#FF9191',
+		fillColor : 'black',
 		position : plStartPosition ? plStartPosition : point(0, 0)
 	});
-	player.gr = 0.5;
+	player.gr = 1.5;
 	player.speed = point(0, 0);
 
 	this.update = function () {
@@ -158,7 +158,7 @@ game.newLoopFromConstructor('game', function () {
 			if (cell.active) {
 				if (cell.isStaticIntersect(player)) {
 					cell.active = false;
-					cell.fillColor = '#9A9A9A';
+					cell.fillColor = 'blue';
 					score++;
 				}
 			}
